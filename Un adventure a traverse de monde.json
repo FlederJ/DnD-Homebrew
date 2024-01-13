@@ -155,7 +155,7 @@
 				{
 					"name": "Galeforce Surge",
 					"entries": [
-						"A powerful gust of wind surges forth from your outstretched hand, creating a localized stormy area. Choose a point within range. Each creature in a 20-foot radius centered on that point must make a Strength saving throw or be pushed 10 feet away from the center. Additionally, the area is considered difficult terrain for the duration.",
+						"2nd level spell. A powerful gust of wind surges forth from your outstretched hand, creating a localized stormy area. Choose a point within range. Each creature in a 20-foot radius centered on that point must make a Strength saving throw or be pushed 10 feet away from the center. Additionally, the area is considered difficult terrain for the duration.",
 
 						"On a failed save, a creature takes 8 ({@damage 2d8} bludgeoning damage and is knocked {@condition prone}. On a successful save, the creature takes half damage and isn't knocked prone. This spell's damage increases by 1d8 for each slot level above 2nd. While concentrating on this spell, as a bonus action on your turn, you can choose a new point for the spell's effect to originate from, provided it is within range."
 					]
@@ -218,7 +218,7 @@
 				{
 					"name": "Water Serpent",
 					"entries": [
-						"You summon a giant serpent out of the ground, made of the moisture in the air. If there is none/not enough, the spell fails/the damage gets reduced by 1d8.",
+						"3rd level spell. You summon a giant serpent out of the ground, made of the moisture in the air. If there is none/not enough, the spell fails/the damage gets reduced by 1d8.",
 						"The serpent is loyal to you and your companions and will attack the enemies without commands.",
 						"{@atk m}: Bite {@hit 7}. One target, {@h}9 ({@damage 2d8}) water damage."
 					]
@@ -226,14 +226,14 @@
 				{
 					"name": "Sprinkler",
 					"entries": [
-						"You collect water from the air in your palm and unleash it in the direction of your foe.",
+						"Cantrip. You collect water from the air in your palm and unleash it in the direction of your foe.",
 						"{@atk rs} {@hit 7}. One target, range 60ft., {@h}9 ({@damage 2d8}) water damage."
 					]
 				},
 				{
 					"name": "Waterspout",
 					"entries": [
-						"A spiral of water comes out of the ground and shoots in the direction of your target.",
+						"1st level spell. A spiral of water comes out of the ground and shoots in the direction of your target.",
 						"{@atk rs} {@hit 7}. {@h}13 ({@damage 3d8}) water damage."
 					]
 				}
