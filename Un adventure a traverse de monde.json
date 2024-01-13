@@ -2,9 +2,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "Un adventure a traverse de monde",
+				"json": "advatravdmonde",
 				"abbreviation": "ATdM",
-				"full": "Un adventure a traverse de monde",
+				"full": "Un adventure a traverse des mondes",
 				"url": "https://github.com/FlederJ/DnD-Homebrew.git",
 				"authors": [
 					"FlederJ"
@@ -24,7 +24,7 @@
 				"M"
 			],
 			"type": "humanoid",
-			"source": "Un adventure a traverse de monde",
+			"source": "advatravdmonde",
 			"alignment": [
 				"C","N"
 			],
@@ -100,7 +100,7 @@
 				"M"
 			],
 			"type": "humanoid",
-			"source": "Un adventure a traverse de monde",
+			"source": "advatravdmonde",
 			"alignment": [
 				"C","N"
 			],
@@ -164,7 +164,7 @@
 			"name": "Fließender Bach",
 			"size": ["M"],
 			"type": "humanoid",
-			"source": "Un adventure a traverse de monde",
+			"source": "advatravdmonde",
 			"alignment": ["C","N"],
 			"ac": [
 				{
@@ -232,7 +232,7 @@
 				"M"
 			],
 			"type": "humanoid",
-			"source": "Un adventure a traverse de monde",
+			"source": "advatravdmonde",
 			"alignment": [
 				"C", "E"
 			],
