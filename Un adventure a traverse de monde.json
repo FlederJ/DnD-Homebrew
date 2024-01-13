@@ -24,7 +24,7 @@
 				"M"
 			],
 			"type": "humanoid",
-			"source": "notNull",
+			"source": "Un adventure a traverse de monde",
 			"alignment": [
 				"C","N"
 			],
@@ -100,7 +100,7 @@
 				"M"
 			],
 			"type": "humanoid",
-			"source": "notNull",
+			"source": "Un adventure a traverse de monde",
 			"alignment": [
 				"C","N"
 			],
@@ -164,7 +164,7 @@
 			"name": "Fließender Bach",
 			"size": ["M"],
 			"type": "humanoid",
-			"source": "notNull",
+			"source": "Un adventure a traverse de monde",
 			"alignment": ["C","N"],
 			"ac": [
 				{
@@ -232,7 +232,7 @@
 				"M"
 			],
 			"type": "humanoid",
-			"source": "notNull",
+			"source": "Un adventure a traverse de monde",
 			"alignment": [
 				"C", "E"
 			],
