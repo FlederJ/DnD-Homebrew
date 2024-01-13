@@ -5,13 +5,13 @@
 				"json": "notNull",
 				"abbreviation": "ATdM",
 				"full": "Un adventure a traverse de monde",
-				"url": "https://github.com/FlederJ/DnD-Homebrew.git",
+				"url": "",
 				"authors": [
 					"FlederJ"
 				],
 				"version": "0.0.2",
 				"convertedBy": [],
-				"color": "0c7047"
+				"color": "#07885d"
 			}
 		],
 		"dateAdded": 1705172970,
@@ -26,7 +26,7 @@
 			"type": "humanoid",
 			"source": "notNull",
 			"alignment": [
-				"C","N"
+				"CN"
 			],
 			"ac": [
 				{
@@ -92,7 +92,8 @@
 				"entries": [
 					"Flamme ist ein Tabaxi unter Kralle's Herrschaft. Er fühlt sich genötigt dazu, Schwächere dauernd an ihre unterlegene Stellung ihm gegenüber erinnern zu müssen. Er selbst versucht stets, perfekt zu sein, was ihm jedoch nie ganz gelingt. Um nicht an seine Fehler erinnert zu werden, entdeckt er dauernd bei anderen welche, aber er hat gesunden Respekt vor Kralle. Seinen Bruder hält er für komplett unterlegen, aber ihn ihm existiert eine Angst, dass er ihn irgendwann besiegt."
 				]
-			}
+			},
+			"uniqueId": "2ca5e5ef-f610-4dc4-b321-baf32ff8ff61"
 		},
 		{
 			"name": "Sturm am Horizont",
@@ -102,7 +103,7 @@
 			"type": "humanoid",
 			"source": "notNull",
 			"alignment": [
-				"C","N"
+				"CN"
 			],
 			"ac": [
 				{
@@ -138,7 +139,7 @@
 				"perception": "+6",
 				"stealth": "+5"
 			},
-			"damageTags": ["S"],
+			"damageTags": ["W"],
 			"action": [
 				{
 					"name": "Windblade",
@@ -158,14 +159,15 @@
 				"entries": [
 					"Sturm am Horizont is a medium humanoid of chaotic neutral alignment."
 				]
-			}
+			},
+			"uniqueId": "jhur949w-ba36-42bb-ba42-28587hcs48h4"
 		},
 		{
 			"name": "Fließender Bach",
 			"size": ["M"],
 			"type": "humanoid",
 			"source": "notNull",
-			"alignment": ["C","N"],
+			"alignment": ["CN"],
 			"ac": [
 				{
 					"ac": 15,
@@ -198,8 +200,8 @@
 				"perception": "+6",
 				"stealth": "+6"
 			},
-			"senses": ["darkvision 60 ft.", "passive Perception 16"],
-			"damageTags": ["B"],
+			"senses": "darkvision 60 ft., passive Perception 16",
+			"damageTags": ["W"],
 			"action": [
 				{
 					"name": "Water Serpent",
@@ -223,9 +225,11 @@
 						"{@atk rs} {@hit 7}. {@h}13 ({@damage 3d8}) water damage."
 					]
 				}
-			]
+			],
+			"uniqueId": "ccd35ad4-fh34-sdv4-bsd4-4859333vnydn"
 		},
 		{
+			"uniqueId": "cc5cfad4-ba36-42bb-ba42-2921cc82ac12",
 			
 			"name": "Kralle",
 			"size": [
@@ -234,7 +238,7 @@
 			"type": "humanoid",
 			"source": "notNull",
 			"alignment": [
-				"C", "E"
+				"CE"
 			],
 			"ac": [
 				{
