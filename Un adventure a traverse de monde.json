@@ -1,0 +1,304 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "notNull",
+				"abbreviation": "ATdM",
+				"full": "Un adventure a traverse de monde",
+				"url": "",
+				"authors": [
+					"FlederJ"
+				],
+				"version": "0.0.2",
+				"convertedBy": [],
+				"color": "#07885d"
+			}
+		],
+		"dateAdded": 1705172970,
+		"dateLastModified": 1705172970
+	},
+	"monster": [
+		{
+			"name": "Flamme",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"source": "notNull",
+			"alignment": [
+				"CN"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"leather and metal"
+					]
+				}
+			],
+			"hp": {
+				"formula": "9d8 + 26",
+				"average": 62
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 12,
+			"dex": 13,
+			"con": 14,
+			"int": 18,
+			"wis": 12,
+			"cha": 14,
+			"passive": 14,
+			"cr": "8",
+			"languages": [
+				"Common",
+				"Tabaxi"
+			],
+			"languageTags": [
+				"C"
+			],
+			"save": {
+				"con": "+5",
+				"int": "+7"
+			},
+			"skill": {
+				"acrobatics": "+7",
+				"perception": "+4",
+				"stealth": "+4"
+			},
+			"damageTags": [
+				"F"
+			],
+			"action": [
+				{
+					"name": "A Handful of Fire:",
+					"entries": [
+						"You collect the flames in your palm and unleash them in the direction of your foe. ",
+						"{@atk rs} {@hit 4} to hit, range 60 ft., one target.  {@h}10 ({@damage 2d8}) fire damage.",
+						"If you throw the flames further than the range, they will fall to the ground somewhere near where you had aimed."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Fiery Shield",
+					"entries": [
+						"You create a shield of burning red flames that protects an ally of yours which you choose from an incoming attack. The target gains +2 AC and if the attack still hits, the attacker takes {@damage 1d6} fire damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Flamme ist ein Tabaxi unter Kralle's Herrschaft. Er fühlt sich genötigt dazu, Schwächere dauernd an ihre unterlegene Stellung ihm gegenüber erinnern zu müssen. Er selbst versucht stets, perfekt zu sein, was ihm jedoch nie ganz gelingt. Um nicht an seine Fehler erinnert zu werden, entdeckt er dauernd bei anderen welche, aber er hat gesunden Respekt vor Kralle. Seinen Bruder hält er für komplett unterlegen, aber ihn ihm existiert eine Angst, dass er ihn irgendwann besiegt."
+				]
+			},
+			"uniqueId": "2ca5e5ef-f610-4dc4-b321-baf32ff8ff61"
+		},
+		{
+			"name": "Sturm am Horizont",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"source": "notNull",
+			"alignment": [
+				"CN"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"leather and metal"
+					]
+				}
+			],
+			"hp": {
+				"formula": "15d12 + 10",
+				"average": 100
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 12,
+			"int": 13,
+			"wis": 17,
+			"cha": 11,
+			"passive": 16,
+			"cr": "6",
+			"languages": ["Common", "Tabaxi"],
+			"languageTags": ["C"],
+			"save": {
+				"dex": "+5",
+				"wis": "+6"
+			},
+			"skill": {
+				"acrobatics": "+8",
+				"perception": "+6",
+				"stealth": "+5"
+			},
+			"damageTags": ["W"],
+			"action": [
+				{
+					"name": "Windblade",
+					"entries": [
+						"Cantrip. {@atk rs} {@hit 7} to hit, range 60/120 ft., one target. {@h} 10 ({@damage 2d6+3}) wind damage."
+					]
+				},
+				{
+					"name": "Tornado",
+					"entries": [
+						"3rd level. AoE Spell Attack: reach 60 ft., range: a cone with a diameter of 10 ft and height of 40 ft. {@h}16 ({@damage 3d8+3}) wind damage.",
+						"A creature must make a strength saving throw DC 15 when starting a turn in the area or enters it for the first time. If it fails, it gets pulled up in the air and gets hit. If it succeeds, it stays on the ground but takes 10 ({@damage 2d6+3}) wind damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Sturm am Horizont is a medium humanoid of chaotic neutral alignment."
+				]
+			},
+			"uniqueId": "jhur949w-ba36-42bb-ba42-28587hcs48h4"
+		},
+		{
+			"name": "Fließender Bach",
+			"size": ["M"],
+			"type": "humanoid",
+			"source": "notNull",
+			"alignment": ["CN"],
+			"ac": [
+				{
+					"ac": 15,
+					"from": ["leather and metal scraps"]
+				}
+			],
+			"hp": {
+				"formula": "9d12",
+				"average": 112
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 9,
+			"dex": 17,
+			"con": 13,
+			"int": 13,
+			"wis": 16,
+			"cha": 10,
+			"passive": 16,
+			"cr": "6",
+			"languages": ["Common", "Tabaxi"],
+			"languageTags": ["C"],
+			"save": {
+				"con": "+4",
+				"int": "+4"
+			},
+			"skill": {
+				"acrobatics": "+9",
+				"perception": "+6",
+				"stealth": "+6"
+			},
+			"senses": "darkvision 60 ft., passive Perception 16",
+			"damageTags": ["W"],
+			"action": [
+				{
+					"name": "Water Serpent",
+					"entries": [
+						"You summon a giant serpent out of the ground, made of the moisture in the air. If there is none/not enough, the spell fails/the damage gets reduced by 1d8.",
+						"The serpent is loyal to you and your companions and will attack the enemies without commands.",
+						"{@atk m}: Bite {@hit 7}. One target, {@h}9 ({@damage 2d8}) water damage."
+					]
+				},
+				{
+					"name": "Sprinkler",
+					"entries": [
+						"You collect water from the air in your palm and unleash it in the direction of your foe.",
+						"{@atk rs} {@hit 7}. One target, range 60ft., {@h}9 ({@damage 2d8}) water damage."
+					]
+				},
+				{
+					"name": "Waterspout",
+					"entries": [
+						"A spiral of water comes out of the ground and shoots in the direction of your target.",
+						"{@atk rs} {@hit 7}. {@h}13 ({@damage 3d8}) water damage."
+					]
+				}
+			],
+			"uniqueId": "ccd35ad4-fh34-sdv4-bsd4-4859333vnydn"
+		},
+		{
+			"uniqueId": "cc5cfad4-ba36-42bb-ba42-2921cc82ac12",
+			
+			"name": "Kralle",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"source": "notNull",
+			"alignment": [
+				"CE"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"strong studded leather"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d8 + 34",
+				"average": 96
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 19,
+			"dex": 15,
+			"con": 14,
+			"int": 13,
+			"wis": 13,
+			"cha": 17,
+			"passive": 14,
+			"cr": "9",
+			"languages": [
+				"Common",
+				"Tabaxi"
+			],
+			"languageTags": [
+				"C"
+			],
+			"save": {
+				"str": "+7",
+				"cha": "+7"
+			},
+			"skill": {
+				"acrobatics": "+7",
+				"perception": "+4",
+				"stealth": "+4",
+				"persuasion": "+7"
+			},
+			"damageTags": [
+				"B"
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"You extend your sharpened claws to slash an enemy",
+						"{@atk m} {@hit 7} to hit, range 5 ft., one target.  {@h}10 ({@damage 1d8+4}) slashing damage."
+					]
+				}
+			],
+			
+			"fluff": {
+				"entries": [
+					"Kralle ist der BBEG der Phase und hat die meisten Tabaxis des Dorfs versklavt und seinem Willen unterworfen."
+				]
+			}
+		}
+		
+	]
+}
