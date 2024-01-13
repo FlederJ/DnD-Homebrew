@@ -147,6 +147,20 @@
 					]
 				},
 				{
+					"name": "Zephyr's Caress",
+					"entries": [
+						"1st level spell. You conjure a gentle breeze that envelops you, providing a soothing and refreshing touch. For the duration, you gain advantage on Dexterity saving throws against being grappled or restrained. Additionally, the gentle wind grants you a +2 bonus to your AC against ranged attacks, as the zephyr redirects incoming projectiles away from you."
+					]
+				},
+				{
+					"name": "Galeforce Surge",
+					"entries": [
+						"A powerful gust of wind surges forth from your outstretched hand, creating a localized stormy area. Choose a point within range. Each creature in a 20-foot radius centered on that point must make a Strength saving throw or be pushed 10 feet away from the center. Additionally, the area is considered difficult terrain for the duration.",
+
+						"On a failed save, a creature takes 8 ({{@damage 2d8} bludgeoning damage and is knocked {@condition} prone. On a successful save, the creature takes half damage and isn't knocked prone. This spell's damage increases by 1d8 for each slot level above 2nd. While concentrating on this spell, as a bonus action on your turn, you can choose a new point for the spell's effect to originate from, provided it is within range."
+					]
+				},
+				{
 					"name": "Tornado",
 					"entries": [
 						"3rd level. AoE Spell Attack: reach 60 ft., range: a cone with a diameter of 10 ft and height of 40 ft. {@h}16 ({@damage 3d8+3}) wind damage.",
